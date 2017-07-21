@@ -12,7 +12,7 @@ resources:
     api: api.system.dev.digifabricpcf.com
     username: {{cf-user}}
     password: {{cf-password}}
-    organization: pramod-pal
+    organization: pnikam-pal
     space: dev
     skip_cert_check: true
 
