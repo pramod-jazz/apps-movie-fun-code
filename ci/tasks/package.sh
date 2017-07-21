@@ -4,7 +4,7 @@ set -e +x
 
 pushd apps-movie-fun-code-source
   echo "Packaging JAR"
-  mvn clean package -DskipTests
+  .mvnw clean package -DskipTests
 popd
 
 jar_count=`find attendee-service-source/target -type f -name *.jar | wc -l`
